@@ -1,0 +1,136 @@
+    1  29/01/20 11:47:40 exit
+    2  12/02/20 14:16:56 sudo apt-get arduino
+    3  12/02/20 14:18:18 passwd
+    4  12/02/20 14:19:28 sudo apt-get install arduino
+    5  12/02/20 14:21:25 sudo apt-get install snapd
+    6  12/02/20 14:22:12 sudo snap install android-studio
+    7  12/02/20 14:25:00 ls
+    8  12/02/20 14:25:10 cd Descargas/
+    9  12/02/20 14:25:11 ls
+   10  12/02/20 14:25:32 tar xf android-studio-ide-191.6010548-linux.tar.gz 
+   11  12/02/20 14:48:44 $ hitstory
+   12  12/02/20 14:48:57 $ history
+   13  12/02/20 14:49:08 >$ history
+   14  12/02/20 14:49:20 history
+   15  12/02/20 14:53:43 de Desktop/
+   16  12/02/20 14:53:45 ls
+   17  12/02/20 14:54:01 cd Desktop/
+   18  12/02/20 14:54:02 ls
+   19  12/02/20 14:54:19 gradlew andorid
+   20  12/02/20 14:54:26 gradlew android
+   21  12/02/20 14:54:35 ls
+   22  12/02/20 14:54:53 ./gradlew android
+   23  12/02/20 15:11:21 sudo add-apt-repository ppa:git-core/ppa
+   24  12/02/20 15:12:23 sudo apt-get update && sudo apt-get upgrade
+   25  12/02/20 15:14:17 sudo apt-get install git arduino
+   26  12/02/20 15:15:52 sudo apt-get install gcc-avr binutils avr-libc avrdude
+   27  12/02/20 15:16:13 git
+   28  12/02/20 15:16:59 git clone https://github.com/ladislas/Bare-Arduino-Proyect MiProyectoArduino
+   29  12/02/20 15:18:04 git clone https://github.com/ladislas/Bare-Arduino-Project MiProyectoArduino
+   30  12/02/20 15:18:17 ls
+   31  12/02/20 15:19:03 cd MiProyectoArduino/
+   32  12/02/20 15:19:04 ls
+   33  12/02/20 15:21:24 make
+   34  12/02/20 15:21:28 ls
+   35  12/02/20 15:21:38 Make
+   36  12/02/20 15:21:46 cd Arduino-Makefile/
+   37  12/02/20 15:21:47 ls
+   38  12/02/20 15:21:50 ls -all
+   39  12/02/20 15:21:52 cd ..
+   40  12/02/20 15:21:53 ls
+   41  12/02/20 15:22:24 ./Makefile-Linux.mk
+   42  12/02/20 15:22:29 sudo ./Makefile-Linux.mk
+   43  12/02/20 15:22:55 cdmod 777 Makefile-Linux.mk 
+   44  12/02/20 15:23:04 chmod 777 Makefile-Linux.mk 
+   45  12/02/20 15:23:07 ls -all
+   46  12/02/20 15:23:12 sudo ./Makefile-Linux.mk
+   47  12/02/20 15:31:59 make Makefile
+   48  12/02/20 15:33:33 cp ../..Makefile-Linux.mk ./Makefile
+   49  12/02/20 15:34:21 ls
+   50  12/02/20 15:34:36 cd src/FooProject/
+   51  12/02/20 15:34:37 ls
+   52  12/02/20 15:34:41 cp ../..Makefile-Linux.mk ./Makefile
+   53  12/02/20 15:35:21 cp Desktop/MiProyectoArduino/Makefile-Linux.mk ./Makefile
+   54  12/02/20 15:42:22 cd ..
+   55  12/02/20 15:42:26 ls
+   56  12/02/20 15:43:28 sudo ./Makefile-Linux.mk
+   57  12/02/20 15:43:36 history
+   58  12/02/20 15:43:48 clear
+   59  12/02/20 15:46:40 make
+   60  12/02/20 15:48:02 git submodule update --init --recursive
+   61  12/02/20 15:49:04 git remote set-url origin https://github.com/tiburtzio/MiProyectoArduino
+   62  12/02/20 15:49:16 git push --set-upstream origin master
+   63  12/02/20 15:50:54 git remote set-url origin https://github.com/tiburtzio/MiProyectoArduino
+   64  12/02/20 15:50:55 git push --set-upstream origin master
+   65  12/02/20 15:51:44 history
+   66  12/02/20 15:51:57 cd ..
+   67  12/02/20 15:52:12 history >> historia.txt
+   68  12/02/20 14:27:50 cd Descargas/
+   69  12/02/20 14:27:53 ls
+   70  12/02/20 14:27:56 cd android-studio/
+   71  12/02/20 14:27:57 ls
+   72  12/02/20 14:28:15 cd bin/
+   73  12/02/20 14:28:16 ls
+   74  12/02/20 14:28:26 ./studio.sh 
+   75  25/02/20 14:17:48 ant
+   76  25/02/20 14:18:00 sudo apt install ant
+   77  25/02/20 14:18:12 ant
+   78  25/02/20 14:18:28 maven
+   79  25/02/20 14:18:36 sudo apt get install maven
+   80  25/02/20 14:18:52 sudo apt install maven
+   81  25/02/20 14:19:03 maven
+   82  25/02/20 14:20:51 git
+   83  25/02/20 14:23:47 mvn --version
+   84  25/02/20 14:28:50 ls
+   85  25/02/20 14:28:53 cd Desktop/
+   86  25/02/20 14:28:55 ls
+   87  25/02/20 14:29:13 mkdir pruebasMaven
+   88  25/02/20 14:29:15 ls
+   89  25/02/20 14:29:20 cd pruebasMaven/
+   90  25/02/20 14:31:42 mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=simple -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   91  25/02/20 14:32:07 ls
+   92  25/02/20 14:32:12 cd simple/
+   93  25/02/20 14:32:13 ls
+   94  25/02/20 14:32:41 cd ..
+   95  25/02/20 14:32:42 ls
+   96  25/02/20 14:34:59 mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=simple-webapp -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   97  25/02/20 14:35:09 ls
+   98  25/02/20 14:35:14 cd simple-webapp/
+   99  25/02/20 14:35:15 ls
+  100  25/02/20 14:35:18 cd ..
+  101  25/02/20 14:37:15 cd simple
+  102  25/02/20 14:37:17 ls
+  103  25/02/20 14:37:35 nano build.xml
+  104  25/02/20 14:48:51 ls
+  105  25/02/20 14:49:32 cd ..
+  106  25/02/20 14:49:33 ls
+  107  25/02/20 14:50:20 nano build.xml 
+  108  25/02/20 14:52:46 ant compile
+  109  25/02/20 14:52:55 ant jar
+  110  25/02/20 14:53:01 nano build.xml 
+  111  25/02/20 14:54:50 ant run
+  112  25/02/20 14:55:13 ant compile
+  113  25/02/20 14:55:24 ant jar
+  114  25/02/20 14:55:32 ant run
+  115  25/02/20 14:55:50 nano build.xml 
+  116  25/02/20 14:57:03 ls
+  117  25/02/20 14:57:06 cd simple
+  118  25/02/20 14:57:08 ls
+  119  25/02/20 14:57:15 cd ..
+  120  25/02/20 14:57:18 nano build.xml 
+  121  25/02/20 14:57:38 ant compile
+  122  25/02/20 14:57:42 ant jar
+  123  25/02/20 14:57:45 ant run
+  124  25/02/20 14:58:03 ls
+  125  25/02/20 14:59:25 ant compile
+  126  25/02/20 14:59:29 ant jar
+  127  25/02/20 14:59:33 ant run
+  128  25/02/20 14:59:49 nano build.xml 
+  129  25/02/20 15:05:49 ant compile
+  130  25/02/20 15:05:58 ant jar
+  131  25/02/20 15:06:06 ant run
+  132  25/02/20 15:06:45 ant clean
+  133  25/02/20 15:06:52 ant compile
+  134  25/02/20 15:07:07 ant jar
+  135  25/02/20 15:07:11 ant run
+  136  25/02/20 15:46:01 history >> historico.txt
