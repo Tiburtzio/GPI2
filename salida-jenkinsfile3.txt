@@ -1,0 +1,52 @@
+Lanzada por el usuario oier etxebe
+Running in Durability level: MAX_SURVIVABILITY
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins  in /home/alumno/.jenkins/workspace/Arduino
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (git)
+[Pipeline] git
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/tiburtzio/GPI2
+ > git init /home/alumno/.jenkins/workspace/Arduino # timeout=10
+Fetching upstream changes from https://github.com/tiburtzio/GPI2
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- https://github.com/tiburtzio/GPI2 +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/tiburtzio/GPI2 # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/tiburtzio/GPI2 # timeout=10
+Fetching upstream changes from https://github.com/tiburtzio/GPI2
+ > git fetch --tags --force --progress -- https://github.com/tiburtzio/GPI2 +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ce4015ded71def892f7bf6e14cdc1869e4b0b0eb (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ce4015ded71def892f7bf6e14cdc1869e4b0b0eb # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master ce4015ded71def892f7bf6e14cdc1869e4b0b0eb # timeout=10
+Commit message: "ficheros jenkisfile"
+First time build. Skipping changelog.
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Build)
+[Pipeline] echo
+Vamos a compilar Arduino
+[Pipeline] dir
+Running in /home/alumno/.jenkins/workspace/Arduino/MiProyectoArduino
+[Pipeline] {
+[Pipeline] sh
++ make -f Makefile-Linux.mk
+make: Makefile-Linux.mk: No existe el archivo o el directorio
+make: *** No hay ninguna regla para construir el objetivo 'Makefile-Linux.mk'.  Alto.
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+ERROR: script returned exit code 2
+Finished: FAILURE
