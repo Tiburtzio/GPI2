@@ -6,11 +6,9 @@ pipeline {
     }
         stage('Build') {
             steps {
-                sh 'mvn -B -DskipTests clean package'
-				echo 'Vamos a compilar Simple maven'
-				dir('pruebasMaven/simple') {
-					sh 'mvn verify'
-					sh 'mvn site'
+				echo 'Vamos a compilar Arduino'
+				dir('MiProyectoArduino'){ 
+					sh 'make -f Makefile-Linux.mk' 
 				}
             }
         }

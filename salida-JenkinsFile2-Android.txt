@@ -1,0 +1,187 @@
+Lanzada por el usuario oier etxebe
+Running in Durability level: MAX_SURVIVABILITY
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins  in /home/alumno/.jenkins/workspace/JF2
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (git)
+[Pipeline] git
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/tiburtzio/GPI2
+ > git init /home/alumno/.jenkins/workspace/JF2 # timeout=10
+Fetching upstream changes from https://github.com/tiburtzio/GPI2
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- https://github.com/tiburtzio/GPI2 +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/tiburtzio/GPI2 # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/tiburtzio/GPI2 # timeout=10
+Fetching upstream changes from https://github.com/tiburtzio/GPI2
+ > git fetch --tags --force --progress -- https://github.com/tiburtzio/GPI2 +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 6e7268770456389f64e01e761dedc97279de423c (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6e7268770456389f64e01e761dedc97279de423c # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master 6e7268770456389f64e01e761dedc97279de423c # timeout=10
+Commit message: "ultima version"
+First time build. Skipping changelog.
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Build)
+[Pipeline] echo
+Vamos a compilar Android
+[Pipeline] dir
+Running in /home/alumno/.jenkins/workspace/JF2/ProyectoAndroid
+[Pipeline] {
+[Pipeline] sh
++ ./gradlew tasks
+
+> Task :tasks
+
+------------------------------------------------------------
+Tasks runnable from root project
+------------------------------------------------------------
+
+Android tasks
+-------------
+androidDependencies - Displays the Android dependencies of the project.
+signingReport - Displays the signing info for the base and test modules
+sourceSets - Prints out all the source sets defined in this project.
+
+Build tasks
+-----------
+assemble - Assemble main outputs for all the variants.
+assembleAndroidTest - Assembles all the Test applications.
+build - Assembles and tests this project.
+buildDependents - Assembles and tests this project and all projects that depend on it.
+buildNeeded - Assembles and tests this project and all projects it depends on.
+bundle - Assemble bundles for all the variants.
+clean - Deletes the build directory.
+cleanBuildCache - Deletes the build cache directory.
+compileDebugAndroidTestSources
+compileDebugSources
+compileDebugUnitTestSources
+compileReleaseSources
+compileReleaseUnitTestSources
+
+Build Setup tasks
+-----------------
+init - Initializes a new Gradle build.
+wrapper - Generates Gradle wrapper files.
+
+Cleanup tasks
+-------------
+lintFix - Runs lint on all variants and applies any safe suggestions to the source code.
+
+Help tasks
+----------
+buildEnvironment - Displays all buildscript dependencies declared in root project 'ActivityA112341'.
+components - Displays the components produced by root project 'ActivityA112341'. [incubating]
+dependencies - Displays all dependencies declared in root project 'ActivityA112341'.
+dependencyInsight - Displays the insight into a specific dependency in root project 'ActivityA112341'.
+dependentComponents - Displays the dependent components of components in root project 'ActivityA112341'. [incubating]
+help - Displays a help message.
+model - Displays the configuration model of root project 'ActivityA112341'. [incubating]
+projects - Displays the sub-projects of root project 'ActivityA112341'.
+properties - Displays the properties of root project 'ActivityA112341'.
+tasks - Displays the tasks runnable from root project 'ActivityA112341' (some of the displayed tasks may belong to subprojects).
+
+Install tasks
+-------------
+installDebug - Installs the Debug build.
+installDebugAndroidTest - Installs the android (on device) tests for the Debug build.
+uninstallAll - Uninstall all applications.
+uninstallDebug - Uninstalls the Debug build.
+uninstallDebugAndroidTest - Uninstalls the android (on device) tests for the Debug build.
+uninstallRelease - Uninstalls the Release build.
+
+Verification tasks
+------------------
+check - Runs all checks.
+connectedAndroidTest - Installs and runs instrumentation tests for all flavors on connected devices.
+connectedCheck - Runs all device checks on currently connected devices.
+connectedDebugAndroidTest - Installs and runs the tests for debug on connected devices.
+deviceAndroidTest - Installs and runs instrumentation tests using all Device Providers.
+deviceCheck - Runs all device checks using Device Providers and Test Servers.
+lint - Runs lint on all variants.
+lintDebug - Runs lint on the Debug build.
+lintRelease - Runs lint on the Release build.
+lintVitalRelease - Runs lint on just the fatal issues in the release build.
+test - Run unit tests for all variants.
+testDebugUnitTest - Run unit tests for the debug build.
+testReleaseUnitTest - Run unit tests for the release build.
+
+To see all tasks and more detail, run gradlew tasks --all
+
+To see more detail about a task, run gradlew help --task <task>
+
+BUILD SUCCESSFUL in 10s
+1 actionable task: 1 executed
+[Pipeline] sh
++ ./gradlew check
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:javaPreCompileDebug
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :app:processDebugResources
+> Task :app:compileDebugJavaWithJavac
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:prepareLintJar UP-TO-DATE
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+
+> Task :app:lint
+Ran lint on variant debug: 6 issues found
+Ran lint on variant release: 6 issues found
+Wrote HTML report to file:///home/alumno/.jenkins/workspace/JF2/ProyectoAndroid/app/build/reports/lint-results.html
+Wrote XML report to file:///home/alumno/.jenkins/workspace/JF2/ProyectoAndroid/app/build/reports/lint-results.xml
+
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:processDebugUnitTestJavaRes NO-SOURCE
+> Task :app:preReleaseUnitTestBuild UP-TO-DATE
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :app:javaPreCompileDebugUnitTest
+> Task :app:compileDebugUnitTestJavaWithJavac
+> Task :app:testDebugUnitTest
+> Task :app:javaPreCompileReleaseUnitTest
+> Task :app:compileReleaseUnitTestJavaWithJavac
+> Task :app:testReleaseUnitTest
+> Task :app:test
+> Task :app:check
+
+BUILD SUCCESSFUL in 39s
+28 actionable tasks: 27 executed, 1 up-to-date
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS
